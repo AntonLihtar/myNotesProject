@@ -1,5 +1,5 @@
 ## мини проект для хранения заметок
-![Screenshot_9.jpg](..%2FScreenshot_9.jpg)
+![Screenshot_9](https://github.com/AntonLihtar/myNotesProject/assets/111772207/2e1e6dbd-79c3-4ece-9b28-67686ba1bcb3)
 ## для ознакомления
 
 https://my-proj-5217b.web.app/ 
