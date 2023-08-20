@@ -1,0 +1,84 @@
+:root {
+  --main-color: #232223;
+  --hover-main-color: #726c72;
+  --btn-color: #16725c;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  height: 100vh;
+  padding: 30px;
+}
+
+h2 {
+  padding: 0 20px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 6px;
+  color: var(--main-color);
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: var(--btn-color);
+  min-width: 130px;
+  min-height: 35px;
+  display: block;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 550;
+
+  &:not([disabled]):hover {
+    background: var(--hover-main-color);
+  }
+}
+
+#submit {
+  margin-top: 20px;
+}
+
+.body-bac {
+  &-green {
+    background: linear-gradient(0, #5dd4bc, #09463a) fixed;
+  }
+
+  &-pink {
+    background: linear-gradient(0, #f3e7d9, #fdd4e3) fixed;
+  }
+
+  &-yellow {
+    background: linear-gradient(0, #f1efc9, #efdf6c) fixed;
+  }
+}
+
+@import "./sass/borders";
+@import "./sass/header";
+@import "./sass/modal";
+@import "./sass/record";
+
+.show-li li{
+  margin: 10px 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

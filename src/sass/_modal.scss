@@ -1,0 +1,72 @@
+//---------modal-------------
+#md {
+  &-modal {
+    position: relative;
+  }
+
+  &-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  &-window {
+    width: 350px;
+    min-height: 200px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 15px;
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  //голова модального окна
+  &-header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-title {
+      font-size: 26px;
+    }
+
+    &-close {
+      font-size: 30px;
+      cursor: pointer;
+      position: absolute;
+      right: 0;
+      top: -10px;
+    }
+  }
+
+  //контент модального окна
+  &-body {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 100px;
+  }
+}
+
+.form-style{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  input{
+    margin-top: 20px;
+    height: 35px;
+    border: 1px solid var(--main-color);
+    border-radius: 2px;
+    font-size: 20px;
+
+    width: 75%;
+  }
+}
+

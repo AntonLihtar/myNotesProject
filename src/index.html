@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-bac-green">
+
+<div class="border-site">
+
+    <header class="header-block">
+        <div class="header-element" id="theme-btn">Тема: зеленая</div>
+
+        <div class="header-btn-wrapper">
+            <div class="header-element " id="reg-btn">Регистрация</div>
+            <div class="hide" id="login-text">Вы авторизованы</div>
+            <div class="header-element login" id="login-btn">Войти</div>
+        </div>
+    </header>
+
+    <h2>Добавить заметку:</h2>
+
+    <section class="border-block">
+        <form action="" id="record-form">
+            <textarea type="text" id="record-input" required minlength="3" rows="7" cols="25"> </textarea>
+            <div id="record-controls">
+                <button id="record-clear-btn">Очистить</button>
+                <button type="submit" id="record-add-btn">Добавить</button>
+            </div>
+
+            <div class="answer hide" id="record-answer">данные отправлены</div>
+        </form>
+    </section>
+
+    <h2>Сохраненные заметки:</h2>
+
+    <section class="border-block">
+        <button class="show-notes" disabled>Показать заметки</button>
+        <div id="auth-text"> Для просмотра заметок авторизуйтесь</div>
+        <ol class="show-li"></ol>
+    </section>
+
+</div>
+
+
+<!------------------modal---------------------------->
+<div id="md-modal" class="hide">
+    <div id="md-overlay" data-close="true">
+        <div id="md-window">
+
+            <div id="md-header">
+                <span id="md-header-title">Войти</span>
+                <span id="md-header-close" data-close="true">&times;</span>
+            </div>
+
+            <div id="md-body"></div>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

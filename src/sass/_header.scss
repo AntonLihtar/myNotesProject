@@ -1,0 +1,31 @@
+.header{
+  &-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 6px double var(--main-color);
+    padding-bottom: 10px;
+  }
+  &-element {
+    background: var(--btn-color);
+    color: var(--main-color);
+    font-weight: 700;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    padding: 3px 10px;
+    cursor: pointer;
+
+    &:hover {
+      border-color: var(--hover-main-color);
+      color: var(--hover-main-color);
+    }
+  }
+  &-btn-wrapper {
+    display: flex;
+    align-items: center;
+
+    div {
+      margin-right: 10px;
+    }
+  }
+}

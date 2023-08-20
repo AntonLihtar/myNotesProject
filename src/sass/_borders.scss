@@ -1,0 +1,21 @@
+.border {
+  &-site {
+    margin: 0 auto;
+    min-height: 100%;
+    width: 600px;
+    border: 6px double var(--main-color);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  &-block {
+    padding: 20px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 3px double var(--main-color);
+    border-radius: 6px;
+  }
+}

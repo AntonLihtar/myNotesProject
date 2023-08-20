@@ -1,0 +1,20 @@
+#record {
+  &-input {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  &-controls {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-answer {
+    color: var(--btn-color);
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
